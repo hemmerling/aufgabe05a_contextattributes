@@ -1,0 +1,21 @@
+<%-- 
+    Document   : index
+    Created on : 17.07.2017, 11:51:46
+    Author     :  Rolf Hemmerling
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Startseite [Web Components ( aufgabe01_menu )]</title>
+    </head>
+    <body>
+        <h1>Web Components ( aufgabe01_menu ) - Startseite</h1>
+        <a href="index.jsp">Startseite</a>
+        <a href="seite1.jsp">Seite1</a>
+        <a href="seite2.jsp">Seite2</a>
+        <a href="seite3.jsp">Seite3</a>
+    </body>
+</html>
