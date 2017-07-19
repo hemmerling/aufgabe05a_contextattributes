@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Seite1 - [Web Components ( aufgabe01a_menu )]</title>
+        <title>Seite1 [Web Components ( aufgabe01a_menu )]</title>
     </head>
     <body>
         <h1>Web Components ( aufgabe01_menu ) - Seite1</h1>
