@@ -7,8 +7,8 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="jsp-aufgabe01_menu" default="default" basedir=".">
-    <description>Builds, tests, and runs the project jsp-aufgabe01_menu.</description>
+<project name="jsp-aufgabe01a_menu" default="default" basedir=".">
+    <description>Builds, tests, and runs the project jsp-aufgabe01a_menu.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
 
