@@ -1,7 +1,7 @@
 <%-- 
     Document   : index
-    Created on : 17.07.2017, 11:51:46
-    Author     :  Rolf Hemmerling
+    Created on : 31.07.2017, 10:51:40
+    Author     : rhemmerling
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -9,13 +9,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Startseite [Web Components ( aufgabe01a_menu )]</title>
-    </head>
+         <title>Startseite [Web Components ( aufgabe05a_contextattributes )]</title>
+   </head>
     <body>
-        <h1>Web Components ( aufgabe01_menu ) - Startseite</h1>
-        <a href="index.jsp">Startseite</a>
-        <a href="seite1.jsp">Seite1</a>
-        <a href="seite2.jsp">Seite2</a>
-        <a href="seite3.jsp">Seite3</a>
+        <jsp:include page = "header.jsp"/>
+        <h1>Web Components ( aufgabe05a_contextattributes ) - Startseite</h1>
     </body>
 </html>

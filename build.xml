@@ -7,8 +7,8 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="aufgabe01a_menu" default="default" basedir=".">
-    <description>Builds, tests, and runs the project aufgabe01a_menu.</description>
+<project name="aufgabe05a_contextattributes" default="default" basedir=".">
+    <description>Builds, tests, and runs the project aufgabe05a_contextattributes.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
 
