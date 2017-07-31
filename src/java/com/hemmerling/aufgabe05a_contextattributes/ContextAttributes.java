@@ -19,7 +19,8 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author rhemmerling
  */
-@WebServlet(name = "ContextAttributes", urlPatterns = {"/ContextAttributes"})
+@WebServlet(name = "ContextAttributes", urlPatterns = {"/ContextAttributes"},
+            loadOnStartup=1)
 public class ContextAttributes extends HttpServlet {
 
     public void init(){
