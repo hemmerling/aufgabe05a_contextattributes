@@ -4,8 +4,8 @@
     Author     : rhemmerling
 --%>
 <a href="index.jsp">Startseite</a>!
-<a href="ContextAttributes">Context Attributes</a> !
-<a href="context_attributes.jsp">View</a>
+<a href="ContextAttributes">Context Attributes Servlet</a> !
+<a href="context_attributes.jsp">Context Attributes</a>
 
 
 
