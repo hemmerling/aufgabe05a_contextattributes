@@ -23,7 +23,8 @@ import javax.servlet.http.HttpServletResponse;
             loadOnStartup=1)
 public class ContextAttributes extends HttpServlet {
 
-    public void init(){
+    @Override
+    public void init() throws ServletException {
         String myAttribute = "MyAttribute3";
         ServletContext context = getServletContext();   
         context.setAttribute("MYATTRIBUTE3",myAttribute);        
