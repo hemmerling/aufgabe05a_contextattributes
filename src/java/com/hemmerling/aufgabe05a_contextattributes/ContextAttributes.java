@@ -23,11 +23,17 @@ import javax.servlet.http.HttpServletResponse;
             loadOnStartup=1)
 public class ContextAttributes extends HttpServlet {
 
+    {
+       // statischer Initalisierungsblock
+       System.out.println("Statischer Initalisierungsblock");
+    }
+    
     @Override
     public void init() throws ServletException {
         String myAttribute = "MyAttribute3";
         ServletContext context = getServletContext();   
         context.setAttribute("MYATTRIBUTE3",myAttribute);        
+       System.out.println("init()");
     }
     
     /**
